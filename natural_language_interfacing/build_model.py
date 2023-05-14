@@ -2,7 +2,7 @@ import tensorflow as tf
 from tensorflow.keras.callbacks import EarlyStopping
 from transformers import BertTokenizerFast, TFBertForSequenceClassification
 
-from language_interfacing.download_sample_dataset import get_dataset_of_kakaobrain_nli
+from natural_language_interfacing.download_sample_dataset import get_dataset_of_kakaobrain_nli
 
 
 MAX_LENGTH_OF_SEQUENCE = 128
